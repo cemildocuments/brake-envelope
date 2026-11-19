@@ -1,0 +1,38 @@
+{
+  "python": "3.12.1 (v3.12.1:2305ca5144, Dec  7 2023, 17:23:38) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-14.8.1-arm64-arm-64bit",
+  "processors_requested": 4,
+  "wall_seconds": 1.115924209007062,
+  "settings": {
+    "workers": 4,
+    "seeds": 40,
+    "pilot": true,
+    "test_size": 10000
+  },
+  "runs": [
+    {
+      "scenario": "gaussian",
+      "seed": 7,
+      "fit_seconds": 0.25990487495437264,
+      "total_seconds": 0.33608995797112584
+    },
+    {
+      "scenario": "heteroscedastic",
+      "seed": 7,
+      "fit_seconds": 0.26824033295270056,
+      "total_seconds": 0.34300729096867144
+    },
+    {
+      "scenario": "heavy_tail",
+      "seed": 7,
+      "fit_seconds": 0.2694595840293914,
+      "total_seconds": 0.34470495802816004
+    },
+    {
+      "scenario": "mixture",
+      "seed": 7,
+      "fit_seconds": 0.25762450008187443,
+      "total_seconds": 0.3323630419326946
+    }
+  ]
+}

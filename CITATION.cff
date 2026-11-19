@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "Please cite this project when using the code or synthetic benchmark data."
+type: software
+title: "BrakeEnvelope-4: Calibrating Continuous-Speed Braking"
+version: 1.1.0
+date-released: 2026-11-19
+license: MIT
+authors:
+  - family-names: Chen
+    given-names: Lei
+    orcid: "https://orcid.org/0000-0002-3919-8056"
+    affiliation: "School of Computing, Georgia Southern University"
+    email: "lchen@georgiasouthern.edu"
+  - family-names: Yavas
+    given-names: Cemil Emre
+    orcid: "https://orcid.org/0009-0006-9552-1731"
+    affiliation: "School of Computing, Georgia Southern University"
+  - family-names: Zhang
+    given-names: Yue
+    orcid: "https://orcid.org/0009-0004-9337-6839"
+    affiliation: "Electrical and Computer Engineering, Georgia Southern University"
+  - family-names: Mead
+    given-names: Nancy R.
+    orcid: "https://orcid.org/0000-0002-2919-086X"
+    affiliation: "Software and Societal Systems Department, Carnegie Mellon University"
+keywords:
+  - conformal prediction
+  - safe control
+  - braking
+  - uncertainty quantification
+  - synthetic benchmark
+abstract: "Reproducible continuous-speed braking envelopes from exact coefficients or paired distance measurements with bounded error; nine original comparison methods, independent noisy-label experiments, clearance transfer, and model-mismatch stress tests."

@@ -1,0 +1,16 @@
+{
+  "rows": 18880,
+  "independent_splits": 160,
+  "unique_test_episodes": 1600000,
+  "risk_above_target_split_fraction": {
+    "coefficient": 0.025,
+    "constant_scale": 0.43125,
+    "endpoint": 0.45,
+    "grid_bonferroni": 0.0,
+    "joint_grid": 0.45,
+    "nominal": 1.0,
+    "policy": 1.0,
+    "pooled": 1.0,
+    "tolerance": 0.06875
+  }
+}

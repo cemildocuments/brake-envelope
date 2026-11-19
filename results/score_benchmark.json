@@ -1,0 +1,33 @@
+{
+  "timings": [
+    {
+      "method": "endpoint",
+      "n": 511,
+      "repeats": 1000,
+      "median_microseconds": 6.042,
+      "p05_microseconds": 5.916,
+      "p95_microseconds": 7.666
+    },
+    {
+      "method": "joint_grid_201",
+      "n": 511,
+      "repeats": 1000,
+      "median_microseconds": 234.0,
+      "p05_microseconds": 195.7899,
+      "p95_microseconds": 268.83930000000004
+    },
+    {
+      "method": "robust_endpoint",
+      "n": 511,
+      "repeats": 1000,
+      "median_microseconds": 7.459,
+      "p05_microseconds": 7.334,
+      "p95_microseconds": 8.752049999999999
+    }
+  ],
+  "joint_endpoint_max_metric_difference": 0.0,
+  "matched_settings": 2080,
+  "platform": "macOS-14.8.1-arm64-arm-64bit",
+  "python": "3.12.1 (v3.12.1:2305ca5144, Dec  7 2023, 17:23:38) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "scope": "score computation only; fitting, sorting and control integration excluded"
+}
